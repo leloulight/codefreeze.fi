@@ -1,0 +1,29 @@
+highlighter: pygments
+permalink: none
+sass:
+    style: :compressed
+sections:
+- about
+- how-to-get-there
+collections:
+- sections
+- participants
+- kiilopaa
+- faq
+- y2015
+defaults:
+    -
+        scope:
+            path: "_participants"
+        values:
+            layout: "sub-page"
+    -
+        scope:
+            path: "2015/participants"
+        values:
+            layout: "sub-page"
+    -
+        scope:
+            path: "2015"
+        values:
+            layout: "index"
